@@ -52,7 +52,6 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    /*box-shadow: 0 2px 2px #3a3a3a;*/
     display: none;
     top: 100%;
 
@@ -127,17 +126,9 @@ main {
     line-height: 0;
 }
 
-/*#cor,#concert{
-	 	display:flex;
-	 	flex-direction: column;
-	 	width:100%;
-	 }
-	 #concert{
-	 	text-align: end;
-	 	align-self:flex-end;
-	 }*/
+
 #circle-cover-bg {
-    background: url('cristinapeter.jpg')no-repeat top center/cover;
+    background: url('../images/petercristina.jpg')no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -155,7 +146,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("crisweb.jpg") no-repeat center center/cover;
+    background: url("../images/cristina1.jpg") no-repeat center center/cover;
     margin-bottom: 20px;
     postion: relative;
 }
@@ -197,7 +188,7 @@ main {
 
 #signup {
     padding: 20px, 10%, 0, 10%;
-    background-image: url("crisweb1.jpg");
+    background-image: url("../images/cristina1.jpg");
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
