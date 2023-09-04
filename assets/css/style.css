@@ -15,11 +15,13 @@ body {
     /*Generic project style*/
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
-    margin: 0;
-
-
 }
-
+h1,h2,h3 {
+     font-family:‘Oswald‘,sans-serif;
+     text-transform:uppercase;
+     letter-spacing:2px;
+     color:#252525;
+}
 header {
     background-color: #ffffff;
     padding: 1rem 1rem;
@@ -27,7 +29,6 @@ header {
     z-index: 99;
     font-size: 14px;
     width: 100%;
-    /*box-shadow: 0 2px 2px #3a3a3a;*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -35,7 +36,7 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #252525;
@@ -54,6 +55,19 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+
+}
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2 rem;
+
 
 }
 
@@ -91,15 +105,6 @@ main {
     text-align: center;
 }
 
-#cor,
-#concert {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-bottom: 6px;
-    line-height: 1.8;
-    font-size: 120%;
-}
 
 #music-cor>div,
 #music-concert>div {
@@ -148,24 +153,9 @@ main {
     width: 100%;
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
     margin-bottom: 20px;
+    margin-top:70px;
     postion: relative;
 }
-
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2 rem;
-
-
-}
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
