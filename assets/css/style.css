@@ -1,0 +1,439 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css/+Fonts import*/2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Narnoor&family=Noto+Sans+JP:wght@100&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project style*/
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+
+
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    position: fixed;
+    z-index: 99;
+    font-size: 14px;
+    width: 100%;
+    /*box-shadow: 0 2px 2px #3a3a3a;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252525;
+}
+
+/*It undelines the active menu */
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    /*box-shadow: 0 2px 2px #3a3a3a;*/
+    display: none;
+    top: 100%;
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 1px;
+
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    margin-top: 90px;
+    /*to push the footer down*/
+    flex: 1 0 auto;
+    font-size: 12px;
+
+}
+
+#love-singing {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#love-singing h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cor,
+#concert {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 6px;
+    line-height: 1.8;
+    font-size: 120%;
+}
+
+#music-cor>div,
+#music-concert>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#music p {
+    padding: 0 20px;
+}
+
+#music hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*Gallery page*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/*#cor,#concert{
+	 	display:flex;
+	 	flex-direction: column;
+	 	width:100%;
+	 }
+	 #concert{
+	 	text-align: end;
+	 	align-self:flex-end;
+	 }*/
+#circle-cover-bg {
+    background: url('cristinapeter.jpg')no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("crisweb.jpg") no-repeat center center/cover;
+    margin-bottom: 20px;
+    postion: relative;
+}
+
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2 rem;
+
+
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks a {
+    text-decoration: none;
+}
+
+/*Signup */
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    padding: 20px, 10%, 0, 10%;
+    background-image: url("crisweb1.jpg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/*Media query:tablets and larger(768px and up)*/
+
+@media screen and (min-width:768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+        font-size: 30px;
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 300%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    h4 {
+        font-size: 200%;
+        letter-spacing: 1px;
+        margin: 0 0.5rem;
+    }
+
+    h3 {
+        font-size: 150%;
+        letter-spacing: 2px;
+        margin: 0 0.5rem;
+    }
+
+    #social-networks i {
+        font-size: 200%;
+        padding: 8%;
+        color: 3a3a3a;
+    }
+
+    #social-networks a {
+        font-size: 130%;
+    }
+
+    #music-cor,
+    #music-concert {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #music-cor>div,
+    #music-concert>div {
+        width: 75%;
+    }
+
+    #music-concert>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #music {
+        font-size: 20px;
+
+    }
+
+    #music p {
+        font-size: 110%;
+        letter-spacing: 5px;
+        line-height: 1.6;
+    }
+
+    /*Form*/
+    #signup {
+        background-position: center;
+        position: relative;
+        height: 650px;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+
+
+    /*Gallery*/
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/*Large devices (laptop desktop)*/
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+
+    }
+
+    #photos {
+        column-count: 4;
+    }
+
+
+}
+
+/*Desktops*/
+@media screen and (min-width:1200px) {
+
+    #music {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #music>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #music-concert {
+        order: 1;
+    }
+
+    #music-concert>div {
+        align-self: flex-start;
+    }
+
+    #music-cor>div {
+        align-self: flex-end;
+    }
+
+    #hero {
+        height: 1500px;
+    }
+
+    /*Form*/
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 100px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
