@@ -16,12 +16,13 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+
 h1 {
-     font-family:‘Oswald‘,sans-serif;
-     font-size:24;
-     text-transform:uppercase;
-     letter-spacing:1px;
-     color:#252525;
+    font-family: ‘Oswald‘, sans-serif;
+    font-size: 20;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252525;
 }
 
 header {
@@ -34,21 +35,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
+
 
 }
-#smaller{
+
+#smaller {
     background-color: #ffffff;
-        padding: 1rem 1rem;
-        position: fixed;
-        z-index: 99;
-        font-size: 14px;
-        width: 250px;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        
+    padding: 1rem 1rem;
+    position: fixed;
+    z-index: 99;
+    font-size: 14px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -71,6 +74,7 @@ nav {
     top: 100%;
 
 }
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -163,9 +167,10 @@ main {
     width: 100%;
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
     margin-bottom: 20px;
-    margin-top:70px;
+    margin-top: 70px;
     postion: relative;
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -229,6 +234,24 @@ main {
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
+}
+
+/* Texts from the concert*/
+#droste {
+    height: 600px;
+    width: 100%;
+    background: url("../images/meersburg.jpg") no-repeat center center/cover;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+
+#texts {
+    margin-top: 160px;
+    color: white;
+    padding-left: 30px;
+    font-size: 15px;
+}
 }
 
 
@@ -358,6 +381,24 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+
+    /* Texts*/
+    #droste {
+        height: 1300px;
+        width: 100%;
+        background: url("../images/meersburg.jpg") no-repeat center center/cover;
+        margin-bottom: 20px;
+        margin-top: 100px;
+
+    }
+
+    #texts {
+        margin-top: 350px;
+        color: white;
+        padding-left: 30px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
 }
 
 /*Large devices (laptop desktop)*/
@@ -427,4 +468,25 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
+       /*Gallery*/
+         #photos {
+             column-count: 4;
+         }
+        /* Texts*/
+        #droste {
+            height:2000px;
+            width: 100%;
+            background: url("../images/meersburg.jpg") no-repeat center center/cover;
+            margin-bottom: 20px;
+            margin-top: 100px;
+    
+        }
+    
+        #texts {
+            margin-top: 700px;
+            color: white;
+            padding-left: 60px;
+            font-size: 26px;
+            letter-spacing: 2px;
+        }
 }
