@@ -31,11 +31,24 @@ header {
     position: fixed;
     z-index: 99;
     font-size: 14px;
-    width: 100%;
+    *width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 
+}
+#smaller{
+    background-color: #ffffff;
+        padding: 1rem 1rem;
+        position: fixed;
+        z-index: 99;
+        font-size: 14px;
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        
 }
 header a {
     text-decoration: none;
@@ -81,7 +94,7 @@ nav {
 }
 
 #menu li {
-    list-style-type: none;
+    margin-bottom: 1em;
 }
 
 
