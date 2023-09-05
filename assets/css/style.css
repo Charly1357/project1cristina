@@ -88,8 +88,8 @@ nav {
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 1px;
+    font-size: 90%;
+    letter-spacing: 0.5px;
     list-style-type: none;
 
 }
@@ -238,7 +238,7 @@ main {
 
 /* Texts from the concert*/
 #droste {
-    height: 600px;
+    height: 1000px;
     width: 100%;
     background: url("../images/meersburg.jpg") no-repeat center center/cover;
     margin-bottom: 20px;
@@ -247,10 +247,19 @@ main {
 }
 
 #texts {
-    margin-top: 160px;
+    margin-top: 250px;
     color: white;
     padding-left: 30px;
-    font-size: 15px;
+    font-size: 17px;
+}
+
+/*texts*/
+.annette {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
 }
 }
 
@@ -297,7 +306,13 @@ main {
     }
 
     #logo {
-        font-size: 300%;
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    #smaller {
+        font-size: 100%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -468,25 +483,27 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
-       /*Gallery*/
-         #photos {
-             column-count: 4;
-         }
-        /* Texts*/
-        #droste {
-            height:2000px;
-            width: 100%;
-            background: url("../images/meersburg.jpg") no-repeat center center/cover;
-            margin-bottom: 20px;
-            margin-top: 100px;
-    
-        }
-    
-        #texts {
-            margin-top: 700px;
-            color: white;
-            padding-left: 60px;
-            font-size: 26px;
-            letter-spacing: 2px;
-        }
+
+    /*Gallery*/
+    #photos {
+        column-count: 4;
+    }
+
+    /* Texts*/
+    #droste {
+        height: 2000px;
+        width: 100%;
+        background: url("../images/meersburg.jpg") no-repeat center center/cover;
+        margin-bottom: 20px;
+        margin-top: 100px;
+
+    }
+
+    #texts {
+        margin-top: 700px;
+        color: white;
+        padding-left: 60px;
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
 }
