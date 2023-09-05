@@ -101,7 +101,7 @@ nav {
 
 
 main {
-    margin-top: 90px;
+    margin-top: 80px;
     /*to push the footer down*/
     flex: 1 0 auto;
     font-size: 12px;
@@ -166,10 +166,12 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
-    margin-bottom: 20px;
-    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-top: 10px;
     /*postion: relative;*/
 }
+
+
 
 #social-networks {
     text-align: center;
@@ -203,6 +205,7 @@ main {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    margin-top: 80px;
 }
 
 #signup-form>h2 {
