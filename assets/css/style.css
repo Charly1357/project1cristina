@@ -168,7 +168,7 @@ main {
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
     margin-bottom: 20px;
     margin-top: 70px;
-    postion: relative;
+    /*postion: relative;*/
 }
 
 #social-networks {
@@ -261,7 +261,7 @@ main {
     width: 80%;
 
 }
-}
+
 
 
 @media screen and (min-width:576px) {
