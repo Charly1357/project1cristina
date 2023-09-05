@@ -412,6 +412,10 @@ main {
         font-size: 24px;
         letter-spacing: 2px;
     }
+
+    #hero {
+        height: 600px;
+    }
 }
 
 /*Large devices (laptop desktop)*/
@@ -423,80 +427,82 @@ main {
     #photos {
         column-count: 4;
     }
-}
 
-/*Desktops*/
-@media screen and (min-width: 1200px) {
-    #music {
-        display: flex;
-        flex-direction: row;
-    }
 
-    #music>div {
-        flex: 1;
-    }
+    /*Desktops*/
+    @media screen and (min-width: 1200px) {
+        #music {
+            display: flex;
+            flex-direction: row;
+        }
 
-    #benefits-image {
-        order: 0;
-    }
+        #music>div {
+            flex: 1;
+        }
 
-    #music-concert {
-        order: 1;
-    }
+        #benefits-image {
+            order: 0;
+        }
 
-    #music-concert>div {
-        align-self: flex-start;
-    }
+        #music-concert {
+            order: 1;
+        }
 
-    #music-cor>div {
-        align-self: flex-end;
-    }
+        #music-concert>div {
+            align-self: flex-start;
+        }
 
-    #hero {
-        height: 1500px;
-    }
+        #music-cor>div {
+            align-self: flex-end;
+        }
 
-    /*Form*/
-    #signup {
-        background-position: center;
-        position: relative;
-    }
+        #hero {
+            height: 1500px;
+        }
 
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 100px;
-    }
+        /*Form*/
+        #signup {
+            background-position: center;
+            position: relative;
+        }
 
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
+        #signup-form {
+            max-width: 400px;
+            position: absolute;
+            left: 10%;
+            top: 100px;
+        }
 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
+        .text-input:hover {
+            border-color: #f16c6b;
+        }
 
-    /*Gallery*/
-    #photos {
-        column-count: 4;
-    }
+        .join-button:hover {
+            background-color: #fafafa;
+            color: #454b1b;
+        }
 
-    /* Texts*/
-    #droste {
-        height: 2000px;
-        width: 100%;
-        background: url("../images/meersburg.jpg") no-repeat center center/cover;
-        margin-bottom: 20px;
-        margin-top: 100px;
-    }
+        /*Gallery*/
+        #photos {
+            column-count: 4;
+        }
 
-    #texts {
-        margin-top: 700px;
-        color: white;
-        padding-left: 60px;
-        font-size: 26px;
-        letter-spacing: 2px;
+        /* Texts*/
+        #droste {
+            height: 2000px;
+            width: 100%;
+            background: url("../images/meersburg.jpg") no-repeat center center/cover;
+            margin-bottom: 20px;
+            margin-top: 100px;
+        }
+
+        #texts {
+            margin-top: 700px;
+            color: white;
+            padding-left: 60px;
+            font-size: 26px;
+            letter-spacing: 2px;
+        }
+
+
     }
-}
