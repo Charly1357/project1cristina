@@ -8,7 +8,7 @@ well as  her company Dico Cantus.
 They will be able to see where and when the concerts take place during the 
 whole year.
 
-As most of the audience come through word of mouth is it also a great possibility
+As most of the audience come through word of mouth it is also a great possibility
 to present the concerts.
 
 ![Responsive website](assets/images/responsivewebsite.jpg)
@@ -44,6 +44,6 @@ I have at the ***Homepage*** and the ***Signup*** page the same background image
 harmonious
 
 
-   
+Background images
 
-
+![Cristina Haigis](assets/images/cristina1.jpg)
