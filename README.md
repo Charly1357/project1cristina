@@ -39,7 +39,7 @@ no background color that would disturb the UI
 
 ## Surface
 
-I have at the **_Homepage_** and the **_Signup_** page the same background image
+The **_Homepage_** and the **_Signup_** page share the same background image
 the **_Gallerypage_** has a mixture of images everything is quite
 harmonious
 
