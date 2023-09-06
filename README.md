@@ -58,12 +58,13 @@ Background image main section
 - The active website is always underline by the class active
 - On the left side is the name Cristina Haigis which is a link to the Homepage
 
-### Main Part
+### Main Section
 
     below the background image shown above
 
 ![Mainpart](assets/images/main1indexhtml.jpg)
 
+- It gives the users the information about the concerts
 - It is divided in 6 differen parts three on each side
 - Each one represent one concert with its data
 - In the middle vertical part is an image
