@@ -53,4 +53,5 @@ Background image
 
 #### Navigation Bar
    
-    
+![Header Nav bar](assets/images/header.jpg)
+
