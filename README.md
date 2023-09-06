@@ -16,8 +16,8 @@ The site user are lovers of classical music but mostly the audience of the
 concerts and there friends .It is focussed
 on giving them a nice image of what will await them during the concerts.
 
-The idea of this webpage is to enlarge the number of people who are able to
-know the place and time of the concerts during the year .
+The idea of this webpage is to enlarge the number of people who visit
+the concerts during the year .
 
 ### Structure
 
@@ -57,3 +57,5 @@ Background image
 - At the right part are the links to the different webpages
 - The active website is always underline by the class active
 - On the left side is the name Cristina Haigis which is a link to the Homepage
+
+![Mainpart](main1indexhtml.jpg)
