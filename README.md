@@ -64,6 +64,7 @@ Background image main section
 
 ![Mainpart](assets/images/main1indexhtml.jpg)
 
+- The headers shows the calender year
 - It gives the users the information about the concerts
 - It is divided in 6 differen parts three on each side
 - Each one represent one concert with its data
