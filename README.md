@@ -40,7 +40,7 @@ the information one needs .
 ## Surface
 
 I have at the ***Homepage*** and the ***Signup*** page the same background image
-at the ***gallerypage** I have a mixture of images but everything is quite
+at the ***gallerypage*** I have a mixture of images but everything is quite
 harmonious
 
 
