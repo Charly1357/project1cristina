@@ -31,5 +31,11 @@ the information one needs .
 2. ***Gallery***  Here  all the images from various concerts are presented
 3. ***Signup*** This gives the users the possibility to suscribe to a newsletter
    
+## Skeleton
+
+   The website is really clear and simple it uses an all three pages the same 
+   header and footer so the interaction with the user is always the same and has 
+   no background color that would disturb the UI  
+   
 
 
