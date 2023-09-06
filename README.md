@@ -33,9 +33,17 @@ the information one needs .
    
 ## Skeleton
 
-   The website is really clear and simple it uses an all three pages the same 
+   The website is really clear and simple it uses on all three pages the same 
    header and footer so the interaction with the user is always the same and has 
    no background color that would disturb the UI  
+
+## Surface
+
+I have at the ***Homepage*** and the ***Signup*** page the same background image
+at the ***gallerypage** I have a mixture of images but everything is quite
+harmonious
+
+
    
 
 
