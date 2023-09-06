@@ -26,7 +26,10 @@ the information one needs .
 
 #### Website Sections:
 
-1.*** Home ***  The most complex page  where all the information is presented
+1. ***Home***   The most complex page  where all the information is presented
                 with a nice background image and a mp4 reproduction
-2.*** Gallery ***  Here  all the images are presented from various concerts
+2. ***Gallery***  Here  all the images from various concerts are presented
+3. ***Signup*** This gives the users the possibility to suscribe to a newsletter
+   
+
 
