@@ -151,7 +151,7 @@ main {
 }
 
 #hero {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
     margin-bottom: 0px;
@@ -173,6 +173,10 @@ main {
     height: 200%;
     object-fit: cover;
 
+}
+
+.height {
+    padding: 60px 0;
 }
 
 #social-networks {
