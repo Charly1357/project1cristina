@@ -43,7 +43,7 @@ I have at the **_Homepage_** and the **_Signup_** page the same background image
 the **_Gallerypage_** has a mixture of images everything is quite
 harmonious
 
-Background image
+Background image main section
 
 ![Cristina Haigis](assets/images/cristina1.jpg)
 
@@ -60,7 +60,7 @@ Background image
 
 ### Main Part
 
-#### right below the background image shown above
+    below the background image shown above
 
 ![Mainpart](assets/images/main1indexhtml.jpg)
 
