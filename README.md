@@ -62,8 +62,8 @@ Background image
 
 ![Mainpart](assets/images/main1indexhtml.jpg)
 
--It is divided in 6 differen parts three on each side
--Each one represent one concert with its data
--In the middle vertical part is an image
--I tried to put them as symmetrical as possible on each
-side
+- It is divided in 6 differen parts three on each side
+- Each one represent one concert with its data
+- In the middle vertical part is an image
+- I tried to put them as symmetrical as possible on each
+  side
