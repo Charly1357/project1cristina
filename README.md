@@ -58,4 +58,6 @@ Background image
 - The active website is always underline by the class active
 - On the left side is the name Cristina Haigis which is a link to the Homepage
 
+### Main Part
+
 ![Mainpart](assets/images/main1indexhtml.jpg)
