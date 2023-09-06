@@ -9,11 +9,12 @@ They will be able to see where and when the concerts take place during the
 whole year.
 
 As most of the audience come through word of mouth it is also a great possibility
-to present the concerts.
+to present the concerts to a new audience
 
 ![Responsive website](assets/images/responsivewebsite.jpg)
 
-The site  user group are  the audience of the concerts .It is focussed
+The site  user are lovers of classical music but mostly the audience of the 
+concerts and there friends  .It is focussed
 on giving them a nice image of what will await them during the concerts.
 
 The idea of this webpage is to enlarge the number of people who are able to 
@@ -44,6 +45,12 @@ I have at the ***Homepage*** and the ***Signup*** page the same background image
 harmonious
 
 
-Background images
+Background image
 
 ![Cristina Haigis](assets/images/cristina1.jpg)
+
+### Features:
+
+#### Navigation Bar
+   
+    
