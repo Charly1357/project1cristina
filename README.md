@@ -11,7 +11,7 @@ whole year.
 As most of the audience come through word of mouth is it also a great possibility
 to present the concerts.
 
-[![Responsive website](assets/images/responsivewebsite.jpg)]
+![Responsive website](assets/images/responsivewebsite.jpg)
 
 The site  user group are  the audience of the concerts .It is focussed
 on giving them a nice image of what will await them during the concerts.
@@ -40,7 +40,7 @@ the information one needs .
 ## Surface
 
 I have at the ***Homepage*** and the ***Signup*** page the same background image
- the ***Gallerypage*** I have a mixture of images but everything is quite
+ the ***Gallerypage*** has a mixture of images  everything is quite
 harmonious
 
 
