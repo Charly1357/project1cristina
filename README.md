@@ -76,5 +76,7 @@ Background image main section
 
 ![MainFooter](assets/images/mainfooter.png)
 
-- At the end of the main section is the mp4 video
-- It can be expanded
+- At the end of the main section is the mp4 video it can be expanded
+- It helps the user get an idea of the qualities of the concerts
+- The footer has three links to the Facebook Instagram and a Personal
+- Website where one can see more information related to the website
