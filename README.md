@@ -141,4 +141,4 @@ The site was deployed on GitHub
 
 ### Acknowledgements
 
--The main idea was taken from Love Running
+- The main idea was taken from Love Running
