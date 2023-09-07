@@ -80,3 +80,8 @@ Background image main section
 - It helps the user get an idea of the qualities of the concerts
 - The footer has three links to the Facebook Instagram and a Personal
 - Website where one can see more information related to the website
+- All this is a strong incentive to the user to visit the concerts
+
+### SignUp
+
+![Signup](assets/images/signup1.jpg)
