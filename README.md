@@ -90,6 +90,6 @@ Background image main section
 - On the left part of the image is the form through which
 - on can collect name email and there preference
 - It helps stay in contact with the user and motivate him
-- to visit the concerts
+  to visit the concerts
 
 ### Testing
