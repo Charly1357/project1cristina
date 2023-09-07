@@ -1,6 +1,6 @@
-/*google fonts*/
+/*google fonts */
 
-
+/*Asterix wildcar selector to to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -221,7 +221,7 @@ main {
 
 .text-input {
     background: transparent;
-    color: fafafa;
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -337,7 +337,7 @@ main {
     #social-networks i {
         font-size: 200%;
         padding: 8%;
-        color: 3a3a3a;
+        color: #3a3a3a;
     }
 
     #social-networks a {
