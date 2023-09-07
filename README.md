@@ -110,7 +110,7 @@ Background image main section
 
 ### Bugs
 
--**solved Bugs**
+**solved Bugs**
 
 - I had problems with the checkbox that it didn't appear the margin were
   wrongly set for the small screens
@@ -118,3 +118,13 @@ Background image main section
   toggle-label
 - The images appeared to large in the gallery section with the main css the
   flexbox it was resolved
+
+### Deployment
+
+The site was deployed on GitHub
+
+- I went on the main part of my github page on Settings
+- In Settings I went to Pages
+- in Pages I selected in Branch the main and save
+- I had to wait quite a long time and on the head appeared
+  your site is live with the http adress
