@@ -100,3 +100,16 @@ Background image main section
   on the chome website
 - I tested the form and submitted and it showed the data input from the user
 
+### Validator Testing
+
+- **HTML** No errors were found when passing through the official W3C
+  validator
+- **CSS** No errors were found when passing through the validator
+- **Accessibility** I confirm that the colors and fonts chosen are easy to
+  read by running it through Lighthouse Dev Tools
+
+### Bugs
+
+-**solved Bugs**
+
+     -
