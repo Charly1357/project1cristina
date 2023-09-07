@@ -93,3 +93,10 @@ Background image main section
   to visit the concerts
 
 ### Testing
+
+- I have tested the website on chrome safari and firefox and they worked fine
+- I tested it on my iphone and sent the link to others and it worked fine
+- I tried out the website on different sizes with the help of the devtool device
+  on the chome website
+- I tested the form and submitted and it showed the data input from the user
+
