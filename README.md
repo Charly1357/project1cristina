@@ -112,4 +112,9 @@ Background image main section
 
 -**solved Bugs**
 
-     -
+- I had problems with the checkbox that it didn't appear the margin were
+  wrongly set for the small screens
+- The checkbox appeared in the large screen since I wrote wrongly the nav
+  toggle-label
+- The images appeared to large in the gallery section with the main css the
+  flexbox it was resolved

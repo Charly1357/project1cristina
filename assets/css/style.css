@@ -395,7 +395,7 @@ main {
 
     /*Gallery*/
     #photos {
-        column-count: 2;
+        column-count: 4;
         column-gap: 0;
     }
 
@@ -428,6 +428,7 @@ main {
     }
 
     #photos {
+        column-gap: 0;
         column-count: 4;
     }
 
