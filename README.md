@@ -71,3 +71,10 @@ Background image main section
 - In the middle vertical part is an image
 - I tried to put them as symmetrical as possible on each
   side
+
+### Lower Main Footer Section
+
+![MainFooter](assets/images/mainfooter.png)
+
+- At the end of the main section is the mp4 video
+- It can be expanded
