@@ -128,3 +128,17 @@ The site was deployed on GitHub
 - in Pages I selected in Branch the main and save
 - I had to wait quite a long time and on the head appeared
   your site is live with the http adress
+
+### Content
+
+- The checkbox for cellphones was taking from love running
+- The way the 6 divs are placed around a round central image was
+  taken from love running
+
+### Media
+
+- The icons were taken from fontawesome
+
+### Acknowledgements
+
+-The main idea was taken from Love Running
