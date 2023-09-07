@@ -85,3 +85,11 @@ Background image main section
 ### SignUp
 
 ![Signup](assets/images/signup1.jpg)
+
+- It has the same background images as in the index.html
+- On the left part of the image is the form through which
+- on can collect name email and there preference
+- It helps stay in contact with the user and motivate him
+- to visit the concerts
+
+### Testing
