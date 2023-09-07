@@ -116,6 +116,7 @@ main {
 
 #music p {
     padding: 0 20px;
+    line-height: 120%
 }
 
 #music hr {
