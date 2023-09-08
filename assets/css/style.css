@@ -122,8 +122,14 @@ main {
 
 
 #music hr {
-    border-top: 6px solid #3a3a3a;
+    border-top: 2px solid #3a3a3a;
     margin: 2px 0;
+}
+
+#music p {
+    padding: 20px 20px;
+    font-size: 100%;
+    line-height: 120%;
 }
 
 /*Gallery page*/
