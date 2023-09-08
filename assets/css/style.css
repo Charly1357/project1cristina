@@ -18,10 +18,18 @@ body {
 }
 
 h1 {
-    font-family: ‘Oswald‘, sans-serif;
+
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #252525;
+}
+
+.h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 18px;
 }
 
 header {
@@ -97,52 +105,52 @@ main {
     font-size: 12px;
 }
 
-#love-singing {
+.love-singing {
     width: 90%;
     margin: 50px auto;
 }
 
-#love-singing h2 {
+.love-singing h2 {
 
     margin-bottom: 20px;
     text-align: center;
 }
 
-#music-cor>div,
-#music-concert>div {
+.music-cor>div,
+.music-concert>div {
     line-height: 10px;
     margin-bottom: 20px;
 }
 
-#music-cor>p {
+.music-cor>p {
     padding: 20px 20px;
     font-size: 290%;
 }
 
 
 
-#music hr {
+.music hr {
     border-top: 2px solid #3a3a3a;
     margin: 2px 0;
 }
 
-#music p {
+.music p {
     padding: 20px 20px;
     font-size: 100%;
     line-height: 120%;
 }
 
 /*Gallery page*/
-#photos img {
+.photos img {
     width: 100%;
     line-height: 1em;
 }
 
-#photos {
+.photos {
     line-height: 0;
 }
 
-#circle-cover-bg {
+.circle-cover-bg {
     background: url("../images/petercristina.jpg") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
@@ -152,13 +160,13 @@ main {
     max-height: 300px;
 }
 
-#benefits-image {
+.benefits-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#hero {
+.hero {
     height: 300px;
     width: 100%;
     background: url("../images/cristina1.jpg") no-repeat center center/cover;
@@ -168,12 +176,12 @@ main {
 }
 
 /*Video*/
-#videosing {
+.videosing {
     height: 30px;
     width: 100%;
 }
 
-#videosing video {
+.videosing video {
     margin-top: 0px;
     top: 0;
     left: 0;
@@ -207,7 +215,7 @@ main {
     flex-direction: column;
 }
 
-#signup {
+.signup {
     padding: 20px 10px 0px 10px;
     background-image: url("../images/cristina1.jpg");
     background-size: cover;
@@ -215,14 +223,14 @@ main {
     flex-grow: 1;
 }
 
-#signup-form {
+.signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
     margin-top: 80px;
 }
 
-#signup-form>h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -278,7 +286,7 @@ main {
 }
 
 @media screen and (min-width: 576px) {
-    #photos {
+    .photos {
         column-count: 2;
         column-gap: 0;
     }
@@ -310,15 +318,17 @@ main {
         margin-top: 150px;
     }
 
-    h1 {
-        font-size: 40px;
+    .h2 {
+        font-size: 30px;
     }
+
+
 
     .nav-toggle-label {
         display: none;
     }
 
-    #logo {
+    .logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -352,41 +362,41 @@ main {
         font-size: 130%;
     }
 
-    #music-cor,
-    #music-concert {
+    .music-cor,
+    .music-concert {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #music-cor>div,
-    #music-concert>div {
+    .music-cor>div,
+    .music-concert>div {
         width: 75%;
     }
 
-    #music-concert>div {
+    .music-concert>div {
         text-align: end;
         align-self: flex-end;
     }
 
-    #music {
+    .music {
         font-size: 20px;
     }
 
-    #music p {
+    .music p {
         font-size: 110%;
         letter-spacing: 5px;
         line-height: 1.6;
     }
 
     /*Form*/
-    #signup {
+    .signup {
         background-position: center;
         position: relative;
         height: 650px;
     }
 
-    #signup-form {
+    .signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
@@ -403,8 +413,8 @@ main {
     }
 
     /*Gallery*/
-    #photos {
-        column-count: 4;
+    .photos {
+        column-count: 2;
         column-gap: 0;
     }
 
@@ -425,7 +435,7 @@ main {
         letter-spacing: 2px;
     }
 
-    #hero {
+    .hero {
         height: 600px;
     }
 }
@@ -436,7 +446,7 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #photos {
+    .photos {
         column-gap: 0;
         column-count: 4;
     }
@@ -444,42 +454,42 @@ main {
 
     /*Desktops*/
     @media screen and (min-width: 1200px) {
-        #music {
+        .music {
             display: flex;
             flex-direction: row;
         }
 
-        #music>div {
+        .music>div {
             flex: 1;
         }
 
-        #benefits-image {
+        .benefits-image {
             order: 0;
         }
 
-        #music-concert {
+        .music-concert {
             order: 1;
         }
 
-        #music-concert>div {
+        .music-concert>div {
             align-self: flex-start;
         }
 
-        #music-cor>div {
+        .music-cor>div {
             align-self: flex-end;
         }
 
-        #hero {
+        .hero {
             height: 1500px;
         }
 
         /*Form*/
-        #signup {
+        .signup {
             background-position: center;
             position: relative;
         }
 
-        #signup-form {
+        .signup-form {
             max-width: 400px;
             position: absolute;
             left: 10%;
@@ -496,7 +506,7 @@ main {
         }
 
         /*Gallery*/
-        #photos {
+        .photos {
             column-count: 4;
         }
 
