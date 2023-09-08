@@ -24,7 +24,7 @@ the concerts during the year .
 It follows an easy structure where right on the first webside one can see all
 the information one needs .
 
-#### Website Sections:
+#### Website Sections
 
 1. **_Home_** The most complex page where all the information is presented
    with a nice background image and a mp4 reproduction
@@ -47,7 +47,7 @@ Background image main section
 
 ![Cristina Haigis](assets/images/cristina1.jpg)
 
-### Features:
+### Features
 
 #### Navigation Bar
 
@@ -110,7 +110,7 @@ Background image main section
 
 ### Bugs
 
-**solved Bugs**
+### solved Bugs
 
 - I had problems with the checkbox that it didn't appear the margin were
   wrongly set for the small screens
